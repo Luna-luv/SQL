@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/c4ff48ff-bd66-40fe-921c-b623531914c6)
+
 # 1-1. BigQuery 기초 지식
 - SQL : 언어, SQL 이 관리하는 저장소 : 데이터베이스(MySQL, PostgreSQL 등)
     - 데이터베이스 : Online Transaction Processing
@@ -24,4 +26,5 @@
 - 왜 SQL을 써야하는가? 
     SQL은 데이터 정리에 특화되어 있어서 간결한 쿼리로 데이터 정리 가능.
     DB에서 직접 연산을 수행하므로 빠름
--> Python 과 비교해서 SQL이 가진 장점이 무엇이며, 왜 기업들이 SQL을 많이 쓰는지 궁금했는데 이번 기회에 SQL의 장점을 알게 되었고, 잘 배워야겠다고 생각했습니다. 
+-> Python 과 비교해서 SQL이 가진 장점이 무엇이며, 왜 기업들이 SQL을 많이 쓰는지 궁금했는데 이번 기회에 SQL의 장점을 알게 되었고, 잘 배워야겠다고 생각했습니다.
+  
