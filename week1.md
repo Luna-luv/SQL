@@ -39,6 +39,7 @@
     -> 답 : 아니다. 소문자도 정상작동한다. 관습이 대문자로 쓰는 것이고, 구조가 한 눈에 보인다는 장점 때문에 보통 대문자로 쓴다. 함수는 대문자, 소문자 섞어 써도 동일하게 정상 작동하지만, "" 안 문자는 대소문자를 구분하기 때문에 이를 주의해야한다.
 
   **연습문제 실습**
+  
 ![image](https://github.com/user-attachments/assets/53d0ce8f-64e7-45d6-9d43-04568ab1a6de)
 ![image](https://github.com/user-attachments/assets/302d524b-a65f-4870-ae09-3623dbe0461a)
 ![image](https://github.com/user-attachments/assets/f176bdec-10be-4de2-a0cc-28f3e3569a7d)
