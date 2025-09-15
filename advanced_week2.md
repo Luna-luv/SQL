@@ -278,7 +278,7 @@ https://leetcode.com/problems/department-highest-salary/description/
 
 ## 문제 인증란
 
-<!-- 이 주석을 지우고 여기에 문제 푼 인증사진을 올려주세요. -->
+![alt text](image-2.png)
 
 
 
