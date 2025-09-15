@@ -280,6 +280,7 @@ https://leetcode.com/problems/department-highest-salary/description/
 
 ![alt text](image-2.png)
 ![alt text](image-3.png)
+![alt text](image-4.png)
 
 
 
