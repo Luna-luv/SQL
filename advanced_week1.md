@@ -351,6 +351,16 @@ SELECT * FROM t1
 
 #### 스코프 규칙
 - 안쪽에서 바깥쪽 순서로 평가
+```SQL
+SELECT column1 FROM t1 AS x
+  WHERE x.column1 = (
+    SELECT column1 FROM t2 AS x
+      WHERE x.column1 = (
+        SELECT column1 FROM t3
+          WHERE x.column2 = t3.column1
+      )
+  );
+
 
 #### 옵티마이저 최적화
 - subquery_to_derived 플래그가 켜져 있으면, 상관 스칼라 서브쿼리 -> 파생 테이블 변환 가능
