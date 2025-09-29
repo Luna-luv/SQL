@@ -196,7 +196,7 @@ https://school.programmers.co.kr/learn/courses/30/lessons/133027
 
 ## 문제 인증란
 
-<!-- 이 주석을 지우고 여기에 문제 푼 인증사진을 올려주세요. -->
+![alt text](image-8.png)
 
 
 
@@ -238,8 +238,16 @@ UNION ALL
 
 
 
-~~~
-여기에 답을 작성해주세요!
+~~~SQL
+SELECT region, restaurant_name, review_count
+FROM (
+    SELECT region,
+           restaurant_name,
+           review_count,
+           ROW_NUMBER() OVER (PARTITION BY region ORDER BY review_count DESC) AS rn
+    FROM Restaurants
+) ranked
+WHERE rn <= 2;
 ~~~
 
 
